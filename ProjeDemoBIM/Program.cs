@@ -16,7 +16,8 @@ namespace ProjeDemoBIM
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            //malloc
+            Application.Run(new FormCalc());
         }
     }
 }

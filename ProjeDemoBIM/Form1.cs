@@ -12,6 +12,8 @@ namespace ProjeDemoBIM
 {
     public partial class Form1 : Form
     {
+        //constructor
+        // default constructor
         public Form1()
         {
             InitializeComponent();
@@ -49,10 +51,17 @@ namespace ProjeDemoBIM
                 return;
             }
 
-            if (email=="admin@izu.edu.tr" && password=="123")
+            if (email=="admin" && password=="123")
             {
-                lblMessage.Text = "Hosgeldin," + email;
-                lblMessage.ForeColor = Color.Green;
+                //lblMessage.Text = "Hosgeldin," + email;
+                //lblMessage.ForeColor = Color.Green;
+                //this.Hide();
+
+                FormHome form = new FormHome();
+                form.ShowDialog();
+
+               
+
             }
             else
             {

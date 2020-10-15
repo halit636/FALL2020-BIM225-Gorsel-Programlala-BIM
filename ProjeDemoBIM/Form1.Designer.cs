@@ -45,6 +45,7 @@
             // tbEmail
             // 
             this.tbEmail.Location = new System.Drawing.Point(225, 136);
+            this.tbEmail.MaxLength = 50;
             this.tbEmail.Name = "tbEmail";
             this.tbEmail.Size = new System.Drawing.Size(408, 28);
             this.tbEmail.TabIndex = 0;
@@ -52,6 +53,7 @@
             // tbPassword
             // 
             this.tbPassword.Location = new System.Drawing.Point(225, 178);
+            this.tbPassword.MaxLength = 32;
             this.tbPassword.Name = "tbPassword";
             this.tbPassword.Size = new System.Drawing.Size(408, 28);
             this.tbPassword.TabIndex = 1;
