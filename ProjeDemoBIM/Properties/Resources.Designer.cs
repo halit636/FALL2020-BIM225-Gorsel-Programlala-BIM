@@ -83,6 +83,16 @@ namespace ProjeDemoBIM.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap clear_symbol_30px {
+            get {
+                object obj = ResourceManager.GetObject("clear_symbol_30px", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap login_24px {
             get {
                 object obj = ResourceManager.GetObject("login_24px", resourceCulture);
